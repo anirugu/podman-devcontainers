@@ -1,0 +1,7 @@
+{
+    "docker.dockerPath": "/usr/bin/podman",
+    "docker.environment": {
+        "DOCKER_HOST": "unix:///run/user/1000/podman/podman.sock",
+    },
+    "dev.containers.dockerPath": "podman",
+}
